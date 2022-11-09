@@ -1,9 +1,14 @@
 import React from 'react';
-
+import ShowMovies from '../components/ShowMovies' 
+import { Typography } from '@mui/material';
 function Home() {
     return (
         <>
-            <h1>Home</h1>
+            <Typography variant="h3" align='center'>
+                Home
+            </Typography>
+            
+            <ShowMovies id={1} margin="normal"/>
         </>
     );
 }
