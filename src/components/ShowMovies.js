@@ -1,8 +1,10 @@
 import Movie from "./Movie";
 
+
 import React from 'react'
 import Cargando from '../styled-components/Cargando'
-import { useMovies } from "../hooks/getMovies";
+import { useMovies } from "../hooks/useMovies";
+
 
 const ShowMovies = ({id}) => {
     const [movies, loading] = useMovies(id);
@@ -11,11 +13,14 @@ const ShowMovies = ({id}) => {
         return <Cargando/>
     }
   return (
-    <div className="row mt-2">
+ 
+    <div className="wrapper">
         {movies.map((item) => (
-            <Movie key={item.id} movie={item} />
+            <Movie className="item" key={item.id} movie={item} />
         ))}
+
     </div>
+        
   )
 }
 
