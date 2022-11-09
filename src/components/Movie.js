@@ -15,7 +15,7 @@ const Movie = ({movie =""}) => {
           <CardActionArea component={RouterLink} to={`movie/${id}`}>
             <CardMedia
               component="img"
-              height="140"
+              height="300"
               image= {urlImg}
               alt="green iguana"
             />

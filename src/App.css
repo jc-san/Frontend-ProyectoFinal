@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&family=Red+Hat+Mono:wght@400;500;600;700&display=swap");
 
+:root {
+    --clr-lotion: #fafafa;
+    --clr-red-marvel: #e62429;
+}
+  
+
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -9,5 +15,9 @@
 .item {
     background-color: lightblue;
     border: 1px solid black;
+}
+
+.AppBar {
+    background-color: var(--clr-red-marvel);
 }
 
