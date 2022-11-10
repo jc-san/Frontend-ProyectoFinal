@@ -21,15 +21,15 @@ function AboutPage() {
             <Typography variant="body1" gutterBottom sx={{pt: 2, pb:2}}>
                 El presente proyecto es un catálogo de películas de Marvel, donde se obtiene la información de cada película de la API api.themoviedb.org.            
             </Typography>
-            <Typography variant="h6" gutterBottom sx={{pt: 3, pb:1}}>
+            <Typography variant="h6" gutterBottom >
                 Participantes del proyecto: 
             </Typography>
-            <div className="wrapper-user" >
+            <div className="wrapper-user">
                 {Participante.map((item)=> (
                     <ShowUsers nombre={item.name} usuario={item.user}/>
                 ))}
             </div>
-            <Typography variant="h6" gutterBottom sx={{pt: 3, pb:1}}> 
+            <Typography variant="h6" gutterBottom> 
                 Senseis: 
             </Typography>
             <div className="wrapper-user">

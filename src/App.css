@@ -12,6 +12,8 @@
     grid-template-columns: repeat(3, 1fr);
     column-gap: 10px;
     row-gap: 1em;  
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 .item {
     background-color: lightblue;

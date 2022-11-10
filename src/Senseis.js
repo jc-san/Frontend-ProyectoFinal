@@ -4,7 +4,7 @@ const Senseis = [
         user: 'montoyaguzman',
     },
     {
-        name: "Daniel Silverio Faustino",
+        name: "Daniel Gloria Florencio",
         user: 'dannielgloria',
     },   
 ]
