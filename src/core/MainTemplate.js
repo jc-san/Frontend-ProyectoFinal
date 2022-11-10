@@ -14,8 +14,7 @@ function MainTemplate() {
   return (
     <React.Fragment>
       <BrowserRouter>
-        <NavBar />.
-        <br/>
+        <NavBar/>
         <Container maxWidth="lg">
           <Routes>
             <Route path="/" element={<Home />} />
