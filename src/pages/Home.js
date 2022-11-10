@@ -4,7 +4,7 @@ import { Typography } from '@mui/material';
 function Home() {
     return (
         <>
-            <Typography variant="h3" align='center'>
+            <Typography variant="h3" align='center' sx={{ pt: 10, pb:7}}>
                 Home
             </Typography>
             
