@@ -6,6 +6,7 @@ import Container from '@mui/material/Container';
 import NavBar from './NavBar';
 import Home from '../pages/Home';
 import AboutPage from '../pages/AboutPage';
+import MovieDetailsPage from '../pages/MovieDetailsPage';
 import NotFound from '../pages/NotFound';
 
 
@@ -20,6 +21,7 @@ function MainTemplate() {
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/movie/:id" element={<MovieDetailsPage/>} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Container>
