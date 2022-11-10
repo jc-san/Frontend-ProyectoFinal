@@ -7,16 +7,16 @@ import { CardActionArea } from '@mui/material';
 
 const Participante = ({name="", data}) => {
     return (
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 200}}>
           <CardActionArea href={data.html_url} target="_blank">
             <CardMedia
               component="img"
-              height="300"
+              height="auto"
               image= {data.avatar_url}
               alt="no hay fotrafia"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography gutterBottom variant="h7" component="div">
                 {name}
               </Typography>
             </CardContent>
