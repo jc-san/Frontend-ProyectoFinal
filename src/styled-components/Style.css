@@ -1,0 +1,106 @@
+/* .cargando{
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #97CE4C;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg);}
+    100% { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+} */
+
+.loader-bg {
+    position: absolute;
+  left: calc(50% - 27px);
+  top: calc(50% - 27px);
+  width: 51px;
+  height: 51px;
+  border: 2px #0E0E0E solid;
+  background-color: #222;
+  border-radius: 50%;
+}
+
+.loader {
+    position: absolute;
+  left: calc(50% - 20px);
+  top: calc(50% - 20px);
+  width: 35px;
+  height: 35px;
+  border: 3px #50EBFF dotted;
+  border-radius: 50%;
+  animation: loader 3s infinite;
+  animation-timing-function: linear;
+}
+
+.loader-circle-1 {
+    position: absolute;
+  left: calc(50% - 15px);
+  top: calc(50% - 15px);
+  width: 31px;
+  height: 31px;
+  /* border: 4px #222 solid; */
+  background-color: #A2F5FF;
+  border-radius: 50%;
+}
+
+.loader-circle-2 {
+    position: absolute;
+  left: calc(50% - 10px);
+  top: calc(50% - 10px);
+  width: 17px;
+  height: 17px;
+  border: 2px #3F3F3F  solid;
+  background-color: #E3FCFF;
+  border-radius: 50%;
+}
+
+@-moz-keyframes loader {
+0% {
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+100% {
+  -ms-transform: rotate(360deg); /* IE 9 */
+  -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+  transform: rotate(360deg);
+}
+}
+
+@-webkit-keyframes loader {
+0% {
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+100% {
+  -ms-transform: rotate(360deg); /* IE 9 */
+  -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+  transform: rotate(360deg);
+}
+}
+
+@keyframes loader {
+0% {
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+100% {
+  -ms-transform: rotate(360deg); /* IE 9 */
+  -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+  transform: rotate(360deg);
+}
+}
