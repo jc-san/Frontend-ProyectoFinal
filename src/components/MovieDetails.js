@@ -4,17 +4,11 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Box } from '@mui/system';
-import { Button, CardHeader, Rating, Stack } from '@mui/material';
+import { Button, CardHeader, Rating } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 
-const MovieDetails = ({dataMovie}) => {
-    const regresar = e => {
-         e.preventDefault();
-         History.back()
-    }
-        
-
+const MovieDetails = ({dataMovie}) => {       
     return (
         <>
         <Card sx={{ display: 'flex'}}>
