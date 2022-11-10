@@ -11,7 +11,7 @@ const Movie = ({movie =""}) => {
     const urlImg = `https://image.tmdb.org/t/p/original${poster_path}`
     return (
         <Card sx={{ maxWidth: 345 }}>
-          <CardActionArea component={RouterLink} to={`movie/${id}`}>
+          <CardActionArea component={RouterLink} to={`../movie/${id}`}>
             <CardMedia
               component="img"
               height="300"
