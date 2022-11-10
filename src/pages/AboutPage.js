@@ -19,7 +19,7 @@ function AboutPage() {
             </Typography>
             
             <Typography variant="body1" gutterBottom sx={{pt: 2, pb:2}}>
-                El presente proyecto es un catálogo de películas de Marvel, donde se obtiene la información de cada película de la API api.themoviedb.org.            
+                El presente proyecto es un catálogo de películas de Marvel, dónde se obtiene la información de cada película de la API api.themoviedb.org.            
             </Typography>
             <Typography variant="h6" gutterBottom >
                 Participantes del proyecto: 
