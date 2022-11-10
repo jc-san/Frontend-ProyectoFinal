@@ -7,6 +7,12 @@
     column-gap: 10px;
     row-gap: 1em;
 }
+.wrapper-user{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;  
+}
 .item {
     background-color: lightblue;
     border: 1px solid black;

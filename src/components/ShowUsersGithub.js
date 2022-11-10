@@ -1,5 +1,5 @@
 
-import Participante from "./Participante";
+import Participante from "./UserGithub";
 
 import React from 'react'
 import Cargando from '../styled-components/Cargando'
@@ -13,9 +13,7 @@ const ShowParticipantes = ({ usuario, nombre }) => {
     }
     return (
 
-        <div className="wrapper">
-            <Participante className="item" key={infoUser.id} data={infoUser} name={nombre}/>
-        </div>
+        <Participante className="item" key={infoUser.id} data={infoUser} name={nombre}/>
     )
 }
 
