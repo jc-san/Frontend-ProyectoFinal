@@ -6,24 +6,19 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import {Link as RouterLink} from 'react-router-dom'
 
-const Movie = ({movie =""}) => {
-    const {title,poster_path,overview,id} = movie
-    const urlImg = `https://image.tmdb.org/t/p/original${poster_path}`
+const Participante = ({name="", data}) => {
     return (
         <Card sx={{ maxWidth: 345 }}>
-          <CardActionArea component={RouterLink} to={`movie/${id}`}>
+          <CardActionArea href={data.html_url} target="_blank">
             <CardMedia
               component="img"
               height="300"
-              image= {urlImg}
-              alt="green iguana"
+              image= {data.avatar_url}
+              alt="no hay fotrafia"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-                {title}
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                {overview}
+                {name}
               </Typography>
             </CardContent>
           </CardActionArea>
@@ -31,4 +26,4 @@ const Movie = ({movie =""}) => {
       );
 }
 
-export default Movie
+export default Participante
